@@ -1,0 +1,1169 @@
+{
+  "$schema": "m3-expressive-tokens",
+  "version": "1.0.0",
+  "description": "Material Design 3 Expressive token system - supplementary tokens beyond baseline M3. Announced Google I/O 2025, rolling out with Android 16. Use alongside baseline M3 tokens for complete coverage.",
+  "lastUpdated": "2025-12-16",
+  "source": "m3.material.io",
+
+  "metadata": {
+    "purpose": "M3 Expressive adds dynamism, personality, and emotional resonance to Material Design 3 through enhanced typography, spring-based motion, and distinctive shapes.",
+    "compatibility": "Requires baseline M3 tokens. Expressive tokens override or supplement baseline values.",
+    "platforms": ["Android", "iOS", "Web", "Flutter", "Compose"],
+    "llmUsageNotes": "When generating UI code, check if expressive variants are appropriate for the context. Use emphasized typography for hero content, CTAs, and emotional moments. Use expressive motion for delightful interactions. Use distinctive shapes for brand personality."
+  },
+
+  "typography": {
+    "description": "M3 Expressive adds 15 emphasized typography variants alongside the 15 baseline styles. Emphasized styles use heavier weights, larger sizes, and tighter line heights to create visual impact and clearer hierarchy.",
+    
+    "emphasizedVariants": {
+      "description": "Each emphasized variant corresponds to a baseline style but with increased visual weight. Use for hero content, primary CTAs, emotional moments, and key information.",
+      
+      "displayLargeEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-display-large-emphasized-font-family, Roboto Flex)",
+        "fontSize": "64px",
+        "fontWeight": 700,
+        "lineHeight": "72px",
+        "letterSpacing": "-0.5px",
+        "baseline": "displayLarge",
+        "useCase": "Hero headlines, splash screens, maximum impact moments"
+      },
+      "displayMediumEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-display-medium-emphasized-font-family, Roboto Flex)",
+        "fontSize": "52px",
+        "fontWeight": 700,
+        "lineHeight": "58px",
+        "letterSpacing": "-0.25px",
+        "baseline": "displayMedium",
+        "useCase": "Major section headers, landing page headlines"
+      },
+      "displaySmallEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-display-small-emphasized-font-family, Roboto Flex)",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": "46px",
+        "letterSpacing": "0px",
+        "baseline": "displaySmall",
+        "useCase": "Secondary headlines, promotional content"
+      },
+      "headlineLargeEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-headline-large-emphasized-font-family, Roboto Flex)",
+        "fontSize": "36px",
+        "fontWeight": 600,
+        "lineHeight": "42px",
+        "letterSpacing": "0px",
+        "baseline": "headlineLarge",
+        "useCase": "Page titles requiring emphasis, feature announcements"
+      },
+      "headlineMediumEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-headline-medium-emphasized-font-family, Roboto Flex)",
+        "fontSize": "32px",
+        "fontWeight": 600,
+        "lineHeight": "38px",
+        "letterSpacing": "0px",
+        "baseline": "headlineMedium",
+        "useCase": "Important section headers, modal titles"
+      },
+      "headlineSmallEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-headline-small-emphasized-font-family, Roboto Flex)",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "lineHeight": "34px",
+        "letterSpacing": "0px",
+        "baseline": "headlineSmall",
+        "useCase": "Card titles needing emphasis, alert headers"
+      },
+      "titleLargeEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-title-large-emphasized-font-family, Roboto Flex)",
+        "fontSize": "24px",
+        "fontWeight": 700,
+        "lineHeight": "30px",
+        "letterSpacing": "0px",
+        "baseline": "titleLarge",
+        "useCase": "Navigation titles, prominent labels"
+      },
+      "titleMediumEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-title-medium-emphasized-font-family, Roboto Flex)",
+        "fontSize": "18px",
+        "fontWeight": 700,
+        "lineHeight": "26px",
+        "letterSpacing": "0.1px",
+        "baseline": "titleMedium",
+        "useCase": "List item titles, tab labels requiring emphasis"
+      },
+      "titleSmallEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-title-small-emphasized-font-family, Roboto Flex)",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": "22px",
+        "letterSpacing": "0.1px",
+        "baseline": "titleSmall",
+        "useCase": "Small headers, emphasized metadata"
+      },
+      "bodyLargeEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-body-large-emphasized-font-family, Roboto Flex)",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": "26px",
+        "letterSpacing": "0.25px",
+        "baseline": "bodyLarge",
+        "useCase": "Lead paragraphs, important body copy, pull quotes"
+      },
+      "bodyMediumEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-body-medium-emphasized-font-family, Roboto Flex)",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": "22px",
+        "letterSpacing": "0.25px",
+        "baseline": "bodyMedium",
+        "useCase": "Inline emphasis, important instructions"
+      },
+      "bodySmallEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-body-small-emphasized-font-family, Roboto Flex)",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": "18px",
+        "letterSpacing": "0.25px",
+        "baseline": "bodySmall",
+        "useCase": "Emphasized captions, important fine print"
+      },
+      "labelLargeEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-label-large-emphasized-font-family, Roboto Flex)",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": "22px",
+        "letterSpacing": "0.1px",
+        "baseline": "labelLarge",
+        "useCase": "Primary button text, prominent badges, CTAs"
+      },
+      "labelMediumEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-label-medium-emphasized-font-family, Roboto Flex)",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": "18px",
+        "letterSpacing": "0.5px",
+        "baseline": "labelMedium",
+        "useCase": "Secondary button text, emphasized chips"
+      },
+      "labelSmallEmphasized": {
+        "fontFamily": "var(--md-sys-typescale-label-small-emphasized-font-family, Roboto Flex)",
+        "fontSize": "12px",
+        "fontWeight": 700,
+        "lineHeight": "16px",
+        "letterSpacing": "0.5px",
+        "baseline": "labelSmall",
+        "useCase": "Badge text, status indicators, micro-labels"
+      }
+    },
+
+    "variableFontAxes": {
+      "description": "M3 Expressive leverages variable fonts (Roboto Flex) for dynamic typography that responds to user interaction and motion. These axes enable fluid transitions and expressive feedback.",
+      
+      "axes": {
+        "wght": {
+          "name": "Weight",
+          "min": 100,
+          "max": 1000,
+          "default": 400,
+          "cssProperty": "font-weight",
+          "description": "Controls stroke thickness. Animate for press feedback or emphasis transitions."
+        },
+        "wdth": {
+          "name": "Width",
+          "min": 25,
+          "max": 151,
+          "default": 100,
+          "cssProperty": "font-stretch",
+          "unit": "%",
+          "description": "Controls character width. Use narrower for space constraints, wider for emphasis."
+        },
+        "opsz": {
+          "name": "Optical Size",
+          "min": 8,
+          "max": 144,
+          "default": 14,
+          "cssProperty": "font-optical-sizing",
+          "description": "Automatically adjusts letterforms for size. Let browser handle or override for stylistic effect."
+        },
+        "GRAD": {
+          "name": "Grade",
+          "min": -200,
+          "max": 150,
+          "default": 0,
+          "description": "Adjusts stroke weight without changing character width. Perfect for hover states and subtle emphasis without layout shift."
+        },
+        "slnt": {
+          "name": "Slant",
+          "min": -10,
+          "max": 0,
+          "default": 0,
+          "unit": "deg",
+          "description": "Controls slant angle. Use for italicized variants or dynamic motion feedback."
+        },
+        "XTRA": {
+          "name": "Counter Width",
+          "min": 323,
+          "max": 603,
+          "default": 468,
+          "description": "Adjusts internal counter spaces. Fine-tune for specific optical adjustments."
+        },
+        "XOPQ": {
+          "name": "Thick Stroke",
+          "min": 27,
+          "max": 175,
+          "default": 96,
+          "description": "Controls thickness of vertical strokes independently."
+        },
+        "YOPQ": {
+          "name": "Thin Stroke",
+          "min": 25,
+          "max": 135,
+          "default": 79,
+          "description": "Controls thickness of horizontal strokes independently."
+        },
+        "YTLC": {
+          "name": "Lowercase Height",
+          "min": 416,
+          "max": 570,
+          "default": 514,
+          "description": "Adjusts x-height of lowercase letters."
+        },
+        "YTUC": {
+          "name": "Uppercase Height",
+          "min": 528,
+          "max": 760,
+          "default": 712,
+          "description": "Adjusts cap height of uppercase letters."
+        },
+        "YTAS": {
+          "name": "Ascender Height",
+          "min": 649,
+          "max": 854,
+          "default": 750,
+          "description": "Controls height of ascenders (b, d, f, h, k, l)."
+        },
+        "YTDE": {
+          "name": "Descender Depth",
+          "min": -305,
+          "max": -98,
+          "default": -203,
+          "description": "Controls depth of descenders (g, j, p, q, y)."
+        },
+        "YTFI": {
+          "name": "Figure Height",
+          "min": 560,
+          "max": 788,
+          "default": 738,
+          "description": "Controls height of numerals."
+        }
+      },
+
+      "expressivePresets": {
+        "description": "Pre-configured axis combinations for common expressive scenarios",
+        
+        "buttonPress": {
+          "description": "Subtle weight increase on button press for tactile feedback",
+          "transition": "150ms ease-out",
+          "from": { "wght": 500, "GRAD": 0 },
+          "to": { "wght": 600, "GRAD": 50 }
+        },
+        "hoverEmphasis": {
+          "description": "Grade increase on hover without layout shift",
+          "transition": "200ms ease-in-out",
+          "from": { "GRAD": 0 },
+          "to": { "GRAD": 100 }
+        },
+        "focusExpand": {
+          "description": "Slight width expansion on focus for accessibility",
+          "transition": "250ms ease-out",
+          "from": { "wdth": 100 },
+          "to": { "wdth": 105 }
+        },
+        "loadingPulse": {
+          "description": "Weight oscillation for loading states",
+          "animation": "pulse 1.5s ease-in-out infinite",
+          "keyframes": {
+            "0%": { "wght": 400 },
+            "50%": { "wght": 500 },
+            "100%": { "wght": 400 }
+          }
+        },
+        "heroEntrance": {
+          "description": "Dynamic entrance for hero typography",
+          "transition": "600ms cubic-bezier(0.34, 1.56, 0.64, 1)",
+          "from": { "wght": 300, "wdth": 90, "GRAD": -100 },
+          "to": { "wght": 700, "wdth": 100, "GRAD": 0 }
+        }
+      }
+    }
+  },
+
+  "motion": {
+    "description": "M3 Expressive introduces spring-based physics animations that feel natural, fluid, and responsive. The expressive motion system creates delightful interactions that respond to user intent.",
+
+    "motionSchemes": {
+      "description": "Two motion schemes define the overall feel of animations throughout an application.",
+      
+      "standard": {
+        "name": "Standard Motion",
+        "description": "Baseline M3 motion. Efficient, purposeful, minimal. Best for productivity apps, data-heavy interfaces, and frequent interactions.",
+        "characteristics": ["Quick", "Efficient", "Minimal overshoot", "Predictable"],
+        "springConfig": {
+          "stiffness": 400,
+          "damping": 30,
+          "mass": 1
+        }
+      },
+      "expressive": {
+        "name": "Expressive Motion",
+        "description": "Enhanced M3 Expressive motion. Bouncy, playful, delightful. Best for consumer apps, onboarding flows, celebrations, and emotional moments.",
+        "characteristics": ["Bouncy", "Playful", "Natural overshoot", "Delightful"],
+        "springConfig": {
+          "stiffness": 300,
+          "damping": 20,
+          "mass": 1
+        }
+      }
+    },
+
+    "expressiveDuration": {
+      "description": "Duration tokens for expressive animations. Generally longer than standard to allow spring physics to complete.",
+      
+      "tokens": {
+        "expressiveShort1": {
+          "value": "100ms",
+          "cssVar": "--md-sys-motion-duration-expressive-short1",
+          "useCase": "Micro-interactions, icon state changes"
+        },
+        "expressiveShort2": {
+          "value": "150ms",
+          "cssVar": "--md-sys-motion-duration-expressive-short2",
+          "useCase": "Button feedback, toggle states"
+        },
+        "expressiveShort3": {
+          "value": "200ms",
+          "cssVar": "--md-sys-motion-duration-expressive-short3",
+          "useCase": "Chip selections, small reveals"
+        },
+        "expressiveShort4": {
+          "value": "250ms",
+          "cssVar": "--md-sys-motion-duration-expressive-short4",
+          "useCase": "Card hover effects, menu items"
+        },
+        "expressiveMedium1": {
+          "value": "300ms",
+          "cssVar": "--md-sys-motion-duration-expressive-medium1",
+          "useCase": "Component state transitions"
+        },
+        "expressiveMedium2": {
+          "value": "400ms",
+          "cssVar": "--md-sys-motion-duration-expressive-medium2",
+          "useCase": "Panel expansions, drawer reveals"
+        },
+        "expressiveMedium3": {
+          "value": "500ms",
+          "cssVar": "--md-sys-motion-duration-expressive-medium3",
+          "useCase": "Modal entrances, page transitions"
+        },
+        "expressiveMedium4": {
+          "value": "600ms",
+          "cssVar": "--md-sys-motion-duration-expressive-medium4",
+          "useCase": "Complex shape morphs, hero animations"
+        },
+        "expressiveLong1": {
+          "value": "700ms",
+          "cssVar": "--md-sys-motion-duration-expressive-long1",
+          "useCase": "Full-screen transitions"
+        },
+        "expressiveLong2": {
+          "value": "850ms",
+          "cssVar": "--md-sys-motion-duration-expressive-long2",
+          "useCase": "Elaborate reveals, celebration animations"
+        },
+        "expressiveLong3": {
+          "value": "1000ms",
+          "cssVar": "--md-sys-motion-duration-expressive-long3",
+          "useCase": "Onboarding sequences, storytelling"
+        },
+        "expressiveLong4": {
+          "value": "1200ms",
+          "cssVar": "--md-sys-motion-duration-expressive-long4",
+          "useCase": "Maximum expression, dramatic reveals"
+        }
+      }
+    },
+
+    "expressiveEasing": {
+      "description": "Easing curves optimized for expressive spring-like motion with natural overshoot.",
+      
+      "tokens": {
+        "expressiveStandard": {
+          "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+          "cssVar": "--md-sys-motion-easing-expressive-standard",
+          "description": "Default expressive easing with slight overshoot",
+          "useCase": "General purpose expressive animations"
+        },
+        "expressiveStandardAccelerate": {
+          "value": "cubic-bezier(0.05, 0.7, 0.1, 1)",
+          "cssVar": "--md-sys-motion-easing-expressive-standard-accelerate",
+          "description": "Quick start with expressive finish",
+          "useCase": "Elements entering the viewport"
+        },
+        "expressiveStandardDecelerate": {
+          "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+          "cssVar": "--md-sys-motion-easing-expressive-standard-decelerate",
+          "description": "Energetic start settling to rest with overshoot",
+          "useCase": "Elements coming to rest after movement"
+        },
+        "expressiveEmphasized": {
+          "value": "cubic-bezier(0.68, -0.55, 0.27, 1.55)",
+          "cssVar": "--md-sys-motion-easing-expressive-emphasized",
+          "description": "Strong overshoot for maximum expression",
+          "useCase": "Celebration moments, achievements, delightful surprises"
+        },
+        "expressiveEmphasizedAccelerate": {
+          "value": "cubic-bezier(0.05, 0.7, 0.1, 1.2)",
+          "cssVar": "--md-sys-motion-easing-expressive-emphasized-accelerate",
+          "description": "Dramatic entrance with bounce",
+          "useCase": "Modal entrances, important reveals"
+        },
+        "expressiveEmphasizedDecelerate": {
+          "value": "cubic-bezier(0.68, -0.3, 0.27, 1.55)",
+          "cssVar": "--md-sys-motion-easing-expressive-emphasized-decelerate",
+          "description": "Bouncy landing with multiple oscillations",
+          "useCase": "Playful interactions, game-like feedback"
+        },
+        "bounce": {
+          "value": "cubic-bezier(0.34, 1.8, 0.64, 1)",
+          "cssVar": "--md-sys-motion-easing-bounce",
+          "description": "Pronounced bounce effect",
+          "useCase": "Notifications, alerts, attention-grabbing elements"
+        },
+        "elastic": {
+          "value": "cubic-bezier(0.68, -0.6, 0.32, 1.6)",
+          "cssVar": "--md-sys-motion-easing-elastic",
+          "description": "Rubber band stretch and snap",
+          "useCase": "Pull-to-refresh, draggable elements, playful UI"
+        }
+      }
+    },
+
+    "springConfigurations": {
+      "description": "Spring physics configurations for framework-level animation APIs (Compose, SwiftUI, Framer Motion, React Spring).",
+      
+      "presets": {
+        "gentle": {
+          "stiffness": 120,
+          "damping": 14,
+          "mass": 1,
+          "description": "Soft, slow spring. Feels relaxed and casual.",
+          "useCase": "Background transitions, ambient motion"
+        },
+        "default": {
+          "stiffness": 170,
+          "damping": 26,
+          "mass": 1,
+          "description": "Balanced spring with minimal overshoot.",
+          "useCase": "General UI transitions"
+        },
+        "wobbly": {
+          "stiffness": 180,
+          "damping": 12,
+          "mass": 1,
+          "description": "Playful spring with visible oscillation.",
+          "useCase": "Celebrations, achievements, fun interactions"
+        },
+        "stiff": {
+          "stiffness": 210,
+          "damping": 20,
+          "mass": 1,
+          "description": "Quick, responsive spring with subtle bounce.",
+          "useCase": "Button feedback, immediate responses"
+        },
+        "slow": {
+          "stiffness": 280,
+          "damping": 60,
+          "mass": 1,
+          "description": "Slow settling with no overshoot.",
+          "useCase": "Elegant transitions, premium feel"
+        },
+        "molasses": {
+          "stiffness": 280,
+          "damping": 120,
+          "mass": 1,
+          "description": "Heavy, viscous motion.",
+          "useCase": "Dramatic reveals, cinematic moments"
+        },
+        "snappy": {
+          "stiffness": 400,
+          "damping": 30,
+          "mass": 1,
+          "description": "Fast and precise with crisp ending.",
+          "useCase": "Menus, tooltips, quick interactions"
+        },
+        "bouncy": {
+          "stiffness": 300,
+          "damping": 10,
+          "mass": 1,
+          "description": "Highly elastic with multiple bounces.",
+          "useCase": "Playful apps, games, celebrations"
+        }
+      }
+    },
+
+    "spatialMotion": {
+      "description": "Tokens controlling how elements move through space in expressive animations.",
+      
+      "tokens": {
+        "expressiveSpatialDefault": {
+          "cssVar": "--md-sys-motion-expressive-spatial-default",
+          "distance": "8px",
+          "description": "Standard spatial movement for expressive interactions"
+        },
+        "expressiveSpatialFast": {
+          "cssVar": "--md-sys-motion-expressive-spatial-fast",
+          "distance": "4px",
+          "description": "Smaller movement for quick micro-interactions"
+        },
+        "expressiveSpatialSlow": {
+          "cssVar": "--md-sys-motion-expressive-spatial-slow",
+          "distance": "16px",
+          "description": "Larger movement for dramatic, slow animations"
+        },
+        "expressiveSpatialHero": {
+          "cssVar": "--md-sys-motion-expressive-spatial-hero",
+          "distance": "24px",
+          "description": "Maximum movement for hero transitions and reveals"
+        }
+      }
+    },
+
+    "hapticPatterns": {
+      "description": "Haptic feedback patterns that complement expressive motion on supported devices.",
+      
+      "patterns": {
+        "success": {
+          "description": "Positive confirmation feedback",
+          "intensity": "medium",
+          "pattern": "double-tap",
+          "useWith": ["achievements", "completions", "confirmations"]
+        },
+        "warning": {
+          "description": "Caution or alert feedback",
+          "intensity": "heavy",
+          "pattern": "single-tap",
+          "useWith": ["errors", "warnings", "destructive actions"]
+        },
+        "selection": {
+          "description": "Light selection feedback",
+          "intensity": "light",
+          "pattern": "tick",
+          "useWith": ["toggles", "checkboxes", "radio buttons"]
+        },
+        "impact": {
+          "description": "Collision or landing feedback",
+          "intensity": "rigid",
+          "pattern": "impact",
+          "useWith": ["drag-drop landing", "spring settle", "bounce end"]
+        }
+      }
+    }
+  },
+
+  "shape": {
+    "description": "M3 Expressive extends the shape system with 35 distinctive shapes and shape morphing capabilities. Shapes communicate brand personality and create visual hierarchy.",
+
+    "expressiveShapeLibrary": {
+      "description": "Extended shape library beyond baseline M3. These shapes are available in Material Shapes Library (Figma) and Jetpack Compose.",
+      
+      "categories": {
+        "rounded": {
+          "description": "Soft, approachable shapes with consistent corner radii",
+          "shapes": {
+            "roundedSmall": {
+              "cornerRadius": "8px",
+              "useCase": "Small buttons, chips, compact elements"
+            },
+            "roundedMedium": {
+              "cornerRadius": "12px",
+              "useCase": "Cards, dialogs, standard containers"
+            },
+            "roundedLarge": {
+              "cornerRadius": "16px",
+              "useCase": "Large cards, featured content"
+            },
+            "roundedExtraLarge": {
+              "cornerRadius": "28px",
+              "useCase": "Hero elements, splash screens"
+            },
+            "roundedFull": {
+              "cornerRadius": "9999px",
+              "useCase": "Pills, fully rounded buttons, avatars"
+            }
+          }
+        },
+        "squircle": {
+          "description": "Superellipse shapes (continuous curvature) for premium, organic feel. Popular in iOS and modern design.",
+          "shapes": {
+            "squircleSmall": {
+              "cornerRadius": "8px",
+              "cornerSmoothing": "60%",
+              "useCase": "App icons, refined small elements"
+            },
+            "squircleMedium": {
+              "cornerRadius": "16px",
+              "cornerSmoothing": "60%",
+              "useCase": "Cards, buttons, premium containers"
+            },
+            "squircleLarge": {
+              "cornerRadius": "24px",
+              "cornerSmoothing": "60%",
+              "useCase": "Large cards, hero content"
+            },
+            "squircleExtraLarge": {
+              "cornerRadius": "32px",
+              "cornerSmoothing": "60%",
+              "useCase": "Full-bleed cards, splash elements"
+            }
+          }
+        },
+        "cut": {
+          "description": "Geometric shapes with cut corners for bold, technical aesthetic",
+          "shapes": {
+            "cutSmall": {
+              "cutSize": "4px",
+              "corners": ["topRight", "bottomLeft"],
+              "useCase": "Tags, badges, technical indicators"
+            },
+            "cutMedium": {
+              "cutSize": "8px",
+              "corners": ["topRight", "bottomLeft"],
+              "useCase": "Cards, buttons with edge"
+            },
+            "cutLarge": {
+              "cutSize": "16px",
+              "corners": ["topRight", "bottomLeft"],
+              "useCase": "Featured panels, bold statements"
+            },
+            "cutAllCorners": {
+              "cutSize": "8px",
+              "corners": ["all"],
+              "useCase": "Octagonal elements, badges"
+            }
+          }
+        },
+        "asymmetric": {
+          "description": "Shapes with varying corner radii for dynamic, distinctive appearance",
+          "shapes": {
+            "asymmetricSoft": {
+              "topLeft": "4px",
+              "topRight": "16px",
+              "bottomRight": "4px",
+              "bottomLeft": "16px",
+              "useCase": "Playful cards, informal content"
+            },
+            "asymmetricBold": {
+              "topLeft": "0px",
+              "topRight": "24px",
+              "bottomRight": "0px",
+              "bottomLeft": "24px",
+              "useCase": "Brand statements, hero elements"
+            },
+            "asymmetricFlow": {
+              "topLeft": "8px",
+              "topRight": "24px",
+              "bottomRight": "8px",
+              "bottomLeft": "0px",
+              "useCase": "Directional elements, flow indicators"
+            },
+            "asymmetricWave": {
+              "topLeft": "20px",
+              "topRight": "4px",
+              "bottomRight": "20px",
+              "bottomLeft": "4px",
+              "useCase": "Organic feel, natural content"
+            }
+          }
+        },
+        "organic": {
+          "description": "Blob-like and natural shapes for friendly, approachable designs",
+          "shapes": {
+            "blob1": {
+              "borderRadius": "30% 70% 70% 30% / 30% 30% 70% 70%",
+              "useCase": "Decorative backgrounds, friendly accents"
+            },
+            "blob2": {
+              "borderRadius": "60% 40% 30% 70% / 60% 30% 70% 40%",
+              "useCase": "Avatar frames, organic containers"
+            },
+            "blob3": {
+              "borderRadius": "40% 60% 60% 40% / 70% 30% 70% 30%",
+              "useCase": "Playful elements, creative contexts"
+            },
+            "pebble": {
+              "borderRadius": "50% 50% 40% 60% / 60% 40% 60% 40%",
+              "useCase": "Soft badges, nature-inspired UI"
+            }
+          }
+        },
+        "angular": {
+          "description": "Sharp, geometric shapes for bold, modern aesthetics",
+          "shapes": {
+            "diamond": {
+              "transform": "rotate(45deg)",
+              "useCase": "Status indicators, decorative accents"
+            },
+            "hexagon": {
+              "clipPath": "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+              "useCase": "Tech badges, gaming UI, unique buttons"
+            },
+            "octagon": {
+              "clipPath": "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+              "useCase": "Stop signs, important alerts"
+            },
+            "arrow": {
+              "clipPath": "polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%)",
+              "useCase": "Directional cards, CTAs"
+            }
+          }
+        },
+        "scalloped": {
+          "description": "Shapes with decorative wavy or scalloped edges",
+          "shapes": {
+            "scallopedTop": {
+              "description": "Wavy top edge",
+              "useCase": "Tickets, coupons, decorative headers"
+            },
+            "scallopedAll": {
+              "description": "Wavy all edges",
+              "useCase": "Stamps, badges, playful elements"
+            },
+            "ticket": {
+              "description": "Notched sides like a ticket stub",
+              "useCase": "Event cards, redeemable items"
+            }
+          }
+        },
+        "branded": {
+          "description": "Pre-configured shapes optimized for Fresh Collective brands",
+          "shapes": {
+            "halfBakdShape": {
+              "cornerRadius": "12px",
+              "cornerSmoothing": "60%",
+              "description": "Squircle for premium CBD brand feel"
+            },
+            "buzzShape": {
+              "cornerRadius": "20px",
+              "description": "Energetic rounded shape for Buzz brand"
+            },
+            "fruitiaShape": {
+              "type": "organic",
+              "borderRadius": "40% 60% 60% 40% / 50% 50% 50% 50%",
+              "description": "Organic blob for natural fruit brand"
+            },
+            "freshFarmsShape": {
+              "cornerRadius": "8px",
+              "description": "Clean, farm-fresh minimal rounding"
+            },
+            "happiHempShape": {
+              "topLeft": "4px",
+              "topRight": "20px",
+              "bottomRight": "4px",
+              "bottomLeft": "20px",
+              "description": "Asymmetric for approachable hemp brand"
+            }
+          }
+        }
+      }
+    },
+
+    "shapeMorphing": {
+      "description": "Shape morphing enables smooth transitions between different shapes, creating fluid, dynamic interfaces.",
+      
+      "morphTransitions": {
+        "squareToCircle": {
+          "from": { "borderRadius": "0px" },
+          "to": { "borderRadius": "50%" },
+          "duration": "400ms",
+          "easing": "var(--md-sys-motion-easing-expressive-standard)",
+          "useCase": "FAB expansion, avatar loading states"
+        },
+        "squareToSquircle": {
+          "from": { "borderRadius": "0px" },
+          "to": { "borderRadius": "20px", "cornerSmoothing": "60%" },
+          "duration": "300ms",
+          "easing": "var(--md-sys-motion-easing-expressive-standard)",
+          "useCase": "Card hover states, selection feedback"
+        },
+        "pillToSquare": {
+          "from": { "borderRadius": "9999px" },
+          "to": { "borderRadius": "8px" },
+          "duration": "350ms",
+          "easing": "var(--md-sys-motion-easing-expressive-emphasized)",
+          "useCase": "Button expand to panel, chip to card"
+        },
+        "roundedToCut": {
+          "from": { "borderRadius": "16px" },
+          "to": { "clipPath": "polygon(8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px), 0 8px)" },
+          "duration": "400ms",
+          "easing": "var(--md-sys-motion-easing-expressive-emphasized)",
+          "useCase": "Mode switches, dramatic state changes"
+        },
+        "circleToBlob": {
+          "from": { "borderRadius": "50%" },
+          "to": { "borderRadius": "30% 70% 70% 30% / 30% 30% 70% 70%" },
+          "duration": "600ms",
+          "easing": "var(--md-sys-motion-easing-elastic)",
+          "useCase": "Playful loading states, organic transitions"
+        }
+      },
+
+      "buttonMorphing": {
+        "description": "Shape morphing patterns specifically for buttons and interactive elements",
+        
+        "patterns": {
+          "pressSquish": {
+            "description": "Button squishes slightly on press",
+            "transform": "scaleX(1.02) scaleY(0.98)",
+            "duration": "100ms",
+            "useCase": "Tactile button feedback"
+          },
+          "hoverPuff": {
+            "description": "Button slightly inflates on hover",
+            "transform": "scale(1.02)",
+            "borderRadiusChange": "+2px",
+            "duration": "200ms",
+            "useCase": "Soft hover states"
+          },
+          "expandToAction": {
+            "description": "Button expands to reveal more options",
+            "widthChange": "expand",
+            "shapeChange": "pill to rounded rect",
+            "duration": "300ms",
+            "useCase": "Action buttons with hidden options"
+          }
+        }
+      },
+
+      "adaptiveButtonGroups": {
+        "description": "Button groups that adapt shape based on context and interaction",
+        
+        "configurations": {
+          "segmentedControl": {
+            "description": "Connected buttons that morph selection indicator",
+            "selectedShape": "rounded",
+            "unselectedShape": "none",
+            "morphDuration": "200ms"
+          },
+          "floatingGroup": {
+            "description": "FAB-like group that expands from single to multiple",
+            "collapsedShape": "circle",
+            "expandedShape": "pill",
+            "itemShape": "circle"
+          },
+          "contextualGroup": {
+            "description": "Buttons that change shape based on available space",
+            "compactShape": "square",
+            "normalShape": "rounded",
+            "expandedShape": "pill"
+          }
+        }
+      }
+    },
+
+    "shapeScale": {
+      "description": "Extended shape scale with expressive corner radius values",
+      
+      "tokens": {
+        "shapeCornerNone": {
+          "value": "0px",
+          "cssVar": "--md-sys-shape-corner-none"
+        },
+        "shapeCornerExtraSmall": {
+          "value": "4px",
+          "cssVar": "--md-sys-shape-corner-extra-small"
+        },
+        "shapeCornerSmall": {
+          "value": "8px",
+          "cssVar": "--md-sys-shape-corner-small"
+        },
+        "shapeCornerMedium": {
+          "value": "12px",
+          "cssVar": "--md-sys-shape-corner-medium"
+        },
+        "shapeCornerLarge": {
+          "value": "16px",
+          "cssVar": "--md-sys-shape-corner-large"
+        },
+        "shapeCornerExtraLarge": {
+          "value": "28px",
+          "cssVar": "--md-sys-shape-corner-extra-large"
+        },
+        "shapeCornerExpressiveSmall": {
+          "value": "20px",
+          "cssVar": "--md-sys-shape-corner-expressive-small"
+        },
+        "shapeCornerExpressiveMedium": {
+          "value": "32px",
+          "cssVar": "--md-sys-shape-corner-expressive-medium"
+        },
+        "shapeCornerExpressiveLarge": {
+          "value": "48px",
+          "cssVar": "--md-sys-shape-corner-expressive-large"
+        },
+        "shapeCornerFull": {
+          "value": "9999px",
+          "cssVar": "--md-sys-shape-corner-full"
+        }
+      }
+    }
+  },
+
+  "components": {
+    "description": "M3 Expressive component variants with enhanced expressiveness",
+
+    "expressiveButton": {
+      "description": "Button component with expressive enhancements",
+      "variants": {
+        "filled": {
+          "shape": "shapeCornerExpressiveMedium",
+          "pressScale": 0.98,
+          "pressEasing": "var(--md-sys-motion-easing-expressive-standard)",
+          "labelStyle": "labelLargeEmphasized"
+        },
+        "filledTonal": {
+          "shape": "shapeCornerExpressiveMedium",
+          "pressScale": 0.98,
+          "labelStyle": "labelLargeEmphasized"
+        },
+        "elevated": {
+          "shape": "shapeCornerExpressiveMedium",
+          "hoverElevation": "level3",
+          "labelStyle": "labelLarge"
+        },
+        "outlined": {
+          "shape": "shapeCornerExpressiveMedium",
+          "borderWidth": "2px",
+          "labelStyle": "labelLarge"
+        },
+        "text": {
+          "shape": "shapeCornerSmall",
+          "labelStyle": "labelLarge"
+        }
+      }
+    },
+
+    "expressiveCard": {
+      "description": "Card component with expressive shape and motion",
+      "variants": {
+        "elevated": {
+          "shape": "squircleMedium",
+          "hoverTransform": "translateY(-4px)",
+          "hoverElevation": "level3",
+          "transitionDuration": "var(--md-sys-motion-duration-expressive-medium1)"
+        },
+        "filled": {
+          "shape": "squircleMedium",
+          "hoverScale": 1.01
+        },
+        "outlined": {
+          "shape": "roundedLarge",
+          "borderWidth": "1px",
+          "hoverBorderWidth": "2px"
+        }
+      }
+    },
+
+    "expressiveFAB": {
+      "description": "Floating Action Button with expressive spring physics",
+      "sizes": {
+        "small": {
+          "size": "40px",
+          "iconSize": "24px",
+          "shape": "shapeCornerExpressiveSmall"
+        },
+        "medium": {
+          "size": "56px",
+          "iconSize": "24px",
+          "shape": "shapeCornerExpressiveMedium"
+        },
+        "large": {
+          "size": "96px",
+          "iconSize": "36px",
+          "shape": "shapeCornerExpressiveLarge"
+        },
+        "extended": {
+          "height": "56px",
+          "shape": "shapeCornerFull",
+          "labelStyle": "labelLargeEmphasized"
+        }
+      },
+      "motion": {
+        "appear": {
+          "animation": "scale",
+          "from": 0,
+          "to": 1,
+          "spring": "bouncy"
+        },
+        "press": {
+          "scale": 0.95,
+          "duration": "100ms"
+        }
+      }
+    },
+
+    "expressiveChip": {
+      "description": "Chip component with expressive selection states",
+      "shape": "shapeCornerFull",
+      "selectedTransition": {
+        "duration": "200ms",
+        "easing": "var(--md-sys-motion-easing-bounce)"
+      },
+      "labelStyle": {
+        "unselected": "labelMedium",
+        "selected": "labelMediumEmphasized"
+      }
+    },
+
+    "expressiveDialog": {
+      "description": "Dialog with expressive entrance animation",
+      "shape": "shapeCornerExpressiveLarge",
+      "entrance": {
+        "animation": "scale-fade",
+        "spring": "wobbly",
+        "from": { "scale": 0.9, "opacity": 0 },
+        "to": { "scale": 1, "opacity": 1 }
+      },
+      "titleStyle": "headlineMediumEmphasized",
+      "bodyStyle": "bodyLarge"
+    },
+
+    "expressiveSwitch": {
+      "description": "Switch with bouncy toggle animation",
+      "trackShape": "shapeCornerFull",
+      "thumbAnimation": {
+        "spring": "stiff",
+        "overshoot": true
+      },
+      "stateChangeHaptic": "selection"
+    },
+
+    "expressiveSlider": {
+      "description": "Slider with springy thumb and value label",
+      "thumbShape": "circle",
+      "thumbSize": {
+        "default": "20px",
+        "pressed": "24px"
+      },
+      "valueLabel": {
+        "shape": "squircleSmall",
+        "entrance": "bounce"
+      }
+    },
+
+    "expressiveProgressIndicator": {
+      "description": "Progress indicators with organic motion",
+      "linear": {
+        "trackShape": "shapeCornerFull",
+        "indicatorAnimation": "spring-based"
+      },
+      "circular": {
+        "spinAnimation": "organic-ease",
+        "completionBounce": true
+      }
+    }
+  },
+
+  "colorExpressive": {
+    "description": "Extended color tokens for expressive contexts. These supplement baseline M3 colors with more vibrant and emotional variants.",
+    
+    "vibrantSurface": {
+      "description": "More saturated surface colors for expressive contexts",
+      "surfaceVibrant": {
+        "light": "#FFF8E1",
+        "dark": "#1C1B17",
+        "useCase": "Celebration states, highlighted sections"
+      },
+      "surfaceVibrantHigh": {
+        "light": "#FFECB3",
+        "dark": "#2D2A1F",
+        "useCase": "Maximum emphasis surfaces"
+      }
+    },
+
+    "emotionalAccents": {
+      "description": "Color tokens mapped to emotional states",
+      "success": {
+        "container": { "light": "#D7F5DC", "dark": "#1B3D22" },
+        "onContainer": { "light": "#0D5415", "dark": "#A6F4B0" }
+      },
+      "celebration": {
+        "container": { "light": "#FFF0C2", "dark": "#3D3012" },
+        "onContainer": { "light": "#5C4200", "dark": "#FFE066" }
+      },
+      "calm": {
+        "container": { "light": "#D3E4FF", "dark": "#0D2D5C" },
+        "onContainer": { "light": "#001A47", "dark": "#A6C8FF" }
+      },
+      "energy": {
+        "container": { "light": "#FFDAD4", "dark": "#5C1A12" },
+        "onContainer": { "light": "#410001", "dark": "#FFB4A8" }
+      }
+    }
+  },
+
+  "implementationGuide": {
+    "description": "Guidance for implementing M3 Expressive tokens across platforms",
+    
+    "css": {
+      "variableFonts": "font-variation-settings: 'wght' var(--font-weight), 'wdth' var(--font-width), 'GRAD' var(--font-grade);",
+      "springAnimation": "Use CSS spring() function where supported, or approximate with cubic-bezier",
+      "shapeMorphing": "Use transition on border-radius, clip-path, or transform properties"
+    },
+    
+    "compose": {
+      "motionScheme": "MaterialTheme.motionScheme.expressive() or MotionScheme.expressive()",
+      "emphasizedTypography": "MaterialTheme.typography.displayLargeEmphasized",
+      "expressiveShapes": "MaterialTheme.shapes.extraLarge with RoundedCornerShape"
+    },
+    
+    "swiftUI": {
+      "spring": ".spring(response: 0.4, dampingFraction: 0.6)",
+      "variableFont": "Font.system(.body).weight(.semibold)"
+    },
+    
+    "web": {
+      "framerMotion": "transition: { type: 'spring', stiffness: 300, damping: 20 }",
+      "reactSpring": "useSpring({ config: config.wobbly })",
+      "cssOnly": "Use cubic-bezier approximations for spring physics"
+    }
+  },
+
+  "usageGuidelines": {
+    "whenToUseExpressive": [
+      "Consumer-facing applications prioritizing delight",
+      "Onboarding and first-run experiences",
+      "Celebrations, achievements, and positive feedback",
+      "Brand moments requiring personality",
+      "Hero sections and key CTAs",
+      "Playful, creative, or entertainment contexts"
+    ],
+    
+    "whenToUseStandard": [
+      "Productivity and enterprise applications",
+      "Data-heavy interfaces requiring efficiency",
+      "Frequent, repetitive interactions",
+      "Accessibility-critical contexts",
+      "Low-power or performance-constrained devices"
+    ],
+    
+    "mixingExpressiveAndStandard": {
+      "description": "Best practice is to use expressive selectively within a standard base",
+      "recommendations": [
+        "Use standard motion for most interactions, expressive for celebrations",
+        "Use emphasized typography for heroes and CTAs, baseline elsewhere",
+        "Use distinctive shapes for key elements, standard shapes for containers",
+        "Test with users to ensure delight doesn't become distraction"
+      ]
+    }
+  }
+}

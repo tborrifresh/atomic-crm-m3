@@ -71,7 +71,7 @@ function getAvatarColorClass(children: React.ReactNode): string {
   ) {
     childText = (children.props as any).children
   }
-  if (!childText) return "bg-muted text-muted-foreground"
+  if (!childText) return "bg-surface-container-high text-on-surface-variant"
 
   return colorClasses[hashString(childText) % colorClasses.length]
 }

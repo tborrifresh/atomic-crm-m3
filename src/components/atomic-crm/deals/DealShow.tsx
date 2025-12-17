@@ -178,7 +178,7 @@ const DealShowContent = () => {
 
 const ArchivedTitle = () => (
   <div className="bg-orange-500 px-6 py-4">
-    <h3 className="text-lg font-bold text-white">Archived Deal</h3>
+    <h3 className="text-lg font-bold text-inverse-on-surface">Archived Deal</h3>
   </div>
 );
 

@@ -231,7 +231,7 @@ export const FileInput = (props: FileInputProps) => {
       <div
         {...getRootProps({
           className: cn(
-            "border-2 border-dashed border-muted rounded-lg p-6 text-center transition-colors",
+            "border-2 border-dashed border-muted rounded-md p-6 text-center transition-colors",
             "hover:border-sidebar-ring focus:outline-none",
             disabled || readOnly
               ? "bg-muted cursor-not-allowed"
@@ -341,7 +341,7 @@ export const FileInputPreview = (props: FileInputPreviewProps) => {
       <Button
         variant="ghost"
         size="icon"
-        className="h-6 w-6 rounded-full shadow-sm cursor-pointer"
+        className="h-6 w-6 rounded-full shadow-md3-2-md3-1 cursor-pointer"
         onClick={onRemove}
         aria-label={translate("ra.action.delete")}
         title={translate("ra.action.delete")}

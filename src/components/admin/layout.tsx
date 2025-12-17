@@ -12,6 +12,7 @@ import { RefreshButton } from "@/components/admin/refresh-button";
 import { LocalesMenuButton } from "@/components/admin/locales-menu-button";
 import { Error } from "@/components/admin/error";
 import { Loading } from "@/components/admin/loading";
+import { TopAppBar } from "@/components/ui/top-app-bar";
 
 /**
  * The main application layout with sidebar, header, and content area.
@@ -40,14 +41,24 @@ export const Layout = (props: CoreLayoutProps) => {
           "has-[main.fixed-main]:group-data-[scroll-locked=1]/body:h-svh",
         )}
       >
-        <header className="flex h-16 md:h-12 shrink-0 items-center gap-2 px-4">
-          <SidebarTrigger className="scale-125 sm:scale-100" />
-          <div className="flex-1 flex items-center" id="breadcrumb" />
-          <LocalesMenuButton />
-          <ThemeModeToggle />
-          <RefreshButton />
-          <UserMenu />
-        </header>
+        <TopAppBar
+          variant="small"
+          className="h-16 md:h-12 shrink-0 px-4"
+          navigationIcon={
+            <div className="flex items-center gap-2">
+              <SidebarTrigger className="scale-125 sm:scale-100" />
+              <div id="breadcrumb" />
+            </div>
+          }
+          actionIcons={
+            <div className="flex items-center gap-1">
+              <LocalesMenuButton />
+              <ThemeModeToggle />
+              <RefreshButton />
+              <UserMenu />
+            </div>
+          }
+        />
         <ErrorBoundary
           onError={handleError}
           fallbackRender={({ error, resetErrorBoundary }) => (

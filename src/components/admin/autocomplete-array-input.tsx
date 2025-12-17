@@ -212,7 +212,7 @@ export const AutocompleteArrayInput = (
           <div className="relative">
             <CommandList>
               {open && availableChoices.length > 0 ? (
-                <div className="absolute top-2 z-10 w-full rounded-md border bg-popover text-popover-foreground shadow-md outline-none animate-in">
+                <div className="absolute top-2 z-10 w-full rounded-md border bg-popover text-popover-foreground shadow-md3-2-md outline-none animate-in">
                   <CommandGroup className="h-full overflow-auto">
                     {availableChoices.map((choice) => {
                       return (

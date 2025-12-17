@@ -111,7 +111,7 @@ export const DealsChart = memo(() => {
           enableGridY={false}
           enableLabel={false}
           tooltip={({ value, indexValue }) => (
-            <div className="p-2 bg-secondary rounded shadow inline-flex items-center gap-1 text-secondary-foreground">
+            <div className="p-2 bg-secondary rounded shadow-md3-2 inline-flex items-center gap-1 text-secondary-foreground">
               <strong>{indexValue}: </strong>&nbsp;{value > 0 ? "+" : ""}
               {value.toLocaleString(acceptedLanguages.at(0) ?? DEFAULT_LOCALE, {
                 style: "currency",

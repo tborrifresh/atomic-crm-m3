@@ -45,8 +45,8 @@ export const DealCardContent = ({
       <Card
         className={`py-4 transition-all duration-200 ${
           snapshot?.isDragging
-            ? "opacity-90 transform rotate-1 shadow-lg"
-            : "shadow-sm hover:shadow-md"
+            ? "opacity-90 transform rotate-1 shadow-md3-2-lg"
+            : "shadow-md3-2-md3-1 hover:shadow-md3-2-md"
         }`}
       >
         <CardContent className="px-4 flex">

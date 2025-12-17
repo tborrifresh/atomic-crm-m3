@@ -156,7 +156,7 @@ const ContactMergeDialog = ({ open, onClose }: ContactMergeDialogProps) => {
         </DialogHeader>
 
         <div className="space-y-4">
-          <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">
+          <div className="p-4 bg-primary/5 rounded-md border border-primary/20">
             <p className="font-medium text-sm">
               Current Contact (will be deleted)
             </p>
