@@ -14,10 +14,10 @@
 
   "typography": {
     "description": "M3 Expressive adds 15 emphasized typography variants alongside the 15 baseline styles. Emphasized styles use heavier weights, larger sizes, and tighter line heights to create visual impact and clearer hierarchy.",
-    
+
     "emphasizedVariants": {
       "description": "Each emphasized variant corresponds to a baseline style but with increased visual weight. Use for hero content, primary CTAs, emotional moments, and key information.",
-      
+
       "displayLargeEmphasized": {
         "fontFamily": "var(--md-sys-typescale-display-large-emphasized-font-family, Roboto Flex)",
         "fontSize": "64px",
@@ -157,7 +157,7 @@
 
     "variableFontAxes": {
       "description": "M3 Expressive leverages variable fonts (Roboto Flex) for dynamic typography that responds to user interaction and motion. These axes enable fluid transitions and expressive feedback.",
-      
+
       "axes": {
         "wght": {
           "name": "Weight",
@@ -259,7 +259,7 @@
 
       "expressivePresets": {
         "description": "Pre-configured axis combinations for common expressive scenarios",
-        
+
         "buttonPress": {
           "description": "Subtle weight increase on button press for tactile feedback",
           "transition": "150ms ease-out",
@@ -302,11 +302,16 @@
 
     "motionSchemes": {
       "description": "Two motion schemes define the overall feel of animations throughout an application.",
-      
+
       "standard": {
         "name": "Standard Motion",
         "description": "Baseline M3 motion. Efficient, purposeful, minimal. Best for productivity apps, data-heavy interfaces, and frequent interactions.",
-        "characteristics": ["Quick", "Efficient", "Minimal overshoot", "Predictable"],
+        "characteristics": [
+          "Quick",
+          "Efficient",
+          "Minimal overshoot",
+          "Predictable"
+        ],
         "springConfig": {
           "stiffness": 400,
           "damping": 30,
@@ -316,7 +321,12 @@
       "expressive": {
         "name": "Expressive Motion",
         "description": "Enhanced M3 Expressive motion. Bouncy, playful, delightful. Best for consumer apps, onboarding flows, celebrations, and emotional moments.",
-        "characteristics": ["Bouncy", "Playful", "Natural overshoot", "Delightful"],
+        "characteristics": [
+          "Bouncy",
+          "Playful",
+          "Natural overshoot",
+          "Delightful"
+        ],
         "springConfig": {
           "stiffness": 300,
           "damping": 20,
@@ -327,7 +337,7 @@
 
     "expressiveDuration": {
       "description": "Duration tokens for expressive animations. Generally longer than standard to allow spring physics to complete.",
-      
+
       "tokens": {
         "expressiveShort1": {
           "value": "100ms",
@@ -394,7 +404,7 @@
 
     "expressiveEasing": {
       "description": "Easing curves optimized for expressive spring-like motion with natural overshoot.",
-      
+
       "tokens": {
         "expressiveStandard": {
           "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
@@ -449,7 +459,7 @@
 
     "springConfigurations": {
       "description": "Spring physics configurations for framework-level animation APIs (Compose, SwiftUI, Framer Motion, React Spring).",
-      
+
       "presets": {
         "gentle": {
           "stiffness": 120,
@@ -512,7 +522,7 @@
 
     "spatialMotion": {
       "description": "Tokens controlling how elements move through space in expressive animations.",
-      
+
       "tokens": {
         "expressiveSpatialDefault": {
           "cssVar": "--md-sys-motion-expressive-spatial-default",
@@ -539,7 +549,7 @@
 
     "hapticPatterns": {
       "description": "Haptic feedback patterns that complement expressive motion on supported devices.",
-      
+
       "patterns": {
         "success": {
           "description": "Positive confirmation feedback",
@@ -574,7 +584,7 @@
 
     "expressiveShapeLibrary": {
       "description": "Extended shape library beyond baseline M3. These shapes are available in Material Shapes Library (Figma) and Jetpack Compose.",
-      
+
       "categories": {
         "rounded": {
           "description": "Soft, approachable shapes with consistent corner radii",
@@ -778,7 +788,7 @@
 
     "shapeMorphing": {
       "description": "Shape morphing enables smooth transitions between different shapes, creating fluid, dynamic interfaces.",
-      
+
       "morphTransitions": {
         "squareToCircle": {
           "from": { "borderRadius": "0px" },
@@ -803,7 +813,9 @@
         },
         "roundedToCut": {
           "from": { "borderRadius": "16px" },
-          "to": { "clipPath": "polygon(8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px), 0 8px)" },
+          "to": {
+            "clipPath": "polygon(8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px), 0 8px)"
+          },
           "duration": "400ms",
           "easing": "var(--md-sys-motion-easing-expressive-emphasized)",
           "useCase": "Mode switches, dramatic state changes"
@@ -819,7 +831,7 @@
 
       "buttonMorphing": {
         "description": "Shape morphing patterns specifically for buttons and interactive elements",
-        
+
         "patterns": {
           "pressSquish": {
             "description": "Button squishes slightly on press",
@@ -846,7 +858,7 @@
 
       "adaptiveButtonGroups": {
         "description": "Button groups that adapt shape based on context and interaction",
-        
+
         "configurations": {
           "segmentedControl": {
             "description": "Connected buttons that morph selection indicator",
@@ -872,7 +884,7 @@
 
     "shapeScale": {
       "description": "Extended shape scale with expressive corner radius values",
-      
+
       "tokens": {
         "shapeCornerNone": {
           "value": "0px",
@@ -1075,7 +1087,7 @@
 
   "colorExpressive": {
     "description": "Extended color tokens for expressive contexts. These supplement baseline M3 colors with more vibrant and emotional variants.",
-    
+
     "vibrantSurface": {
       "description": "More saturated surface colors for expressive contexts",
       "surfaceVibrant": {
@@ -1113,24 +1125,24 @@
 
   "implementationGuide": {
     "description": "Guidance for implementing M3 Expressive tokens across platforms",
-    
+
     "css": {
       "variableFonts": "font-variation-settings: 'wght' var(--font-weight), 'wdth' var(--font-width), 'GRAD' var(--font-grade);",
       "springAnimation": "Use CSS spring() function where supported, or approximate with cubic-bezier",
       "shapeMorphing": "Use transition on border-radius, clip-path, or transform properties"
     },
-    
+
     "compose": {
       "motionScheme": "MaterialTheme.motionScheme.expressive() or MotionScheme.expressive()",
       "emphasizedTypography": "MaterialTheme.typography.displayLargeEmphasized",
       "expressiveShapes": "MaterialTheme.shapes.extraLarge with RoundedCornerShape"
     },
-    
+
     "swiftUI": {
       "spring": ".spring(response: 0.4, dampingFraction: 0.6)",
       "variableFont": "Font.system(.body).weight(.semibold)"
     },
-    
+
     "web": {
       "framerMotion": "transition: { type: 'spring', stiffness: 300, damping: 20 }",
       "reactSpring": "useSpring({ config: config.wobbly })",
@@ -1147,7 +1159,7 @@
       "Hero sections and key CTAs",
       "Playful, creative, or entertainment contexts"
     ],
-    
+
     "whenToUseStandard": [
       "Productivity and enterprise applications",
       "Data-heavy interfaces requiring efficiency",
@@ -1155,7 +1167,7 @@
       "Accessibility-critical contexts",
       "Low-power or performance-constrained devices"
     ],
-    
+
     "mixingExpressiveAndStandard": {
       "description": "Best practice is to use expressive selectively within a standard base",
       "recommendations": [

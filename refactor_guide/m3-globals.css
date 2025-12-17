@@ -10,7 +10,7 @@
 /* ─────────────────────────────────────────────────────────────────────────────────
    FONTS - Google Fonts Import
    ───────────────────────────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 /* ─────────────────────────────────────────────────────────────────────────────────
    TAILWIND DIRECTIVES
@@ -27,10 +27,10 @@
      REFERENCE TOKENS - Foundation Values
      These are the raw palette values. Rarely changed per-brand.
      ───────────────────────────────────────────────────────────────────────────── */
-  
+
   /* Typeface Reference */
-  --md-ref-typeface-brand: 'Roboto', sans-serif;
-  --md-ref-typeface-plain: 'Roboto', sans-serif;
+  --md-ref-typeface-brand: "Roboto", sans-serif;
+  --md-ref-typeface-plain: "Roboto", sans-serif;
   --md-ref-typeface-weight-regular: 400;
   --md-ref-typeface-weight-medium: 500;
   --md-ref-typeface-weight-bold: 700;
@@ -40,266 +40,266 @@
      Generate custom palettes at: material-foundation.github.io/material-theme-builder
      ───────────────────────────────────────────────────────────────────────────── */
   --md-ref-palette-primary-0: #000000;
-  --md-ref-palette-primary-10: #21005D;
-  --md-ref-palette-primary-20: #381E72;
-  --md-ref-palette-primary-30: #4F378B;
-  --md-ref-palette-primary-40: #6750A4;
-  --md-ref-palette-primary-50: #7F67BE;
-  --md-ref-palette-primary-60: #9A82DB;
-  --md-ref-palette-primary-70: #B69DF8;
-  --md-ref-palette-primary-80: #D0BCFF;
-  --md-ref-palette-primary-90: #EADDFF;
-  --md-ref-palette-primary-95: #F6EDFF;
-  --md-ref-palette-primary-99: #FFFBFE;
-  --md-ref-palette-primary-100: #FFFFFF;
+  --md-ref-palette-primary-10: #21005d;
+  --md-ref-palette-primary-20: #381e72;
+  --md-ref-palette-primary-30: #4f378b;
+  --md-ref-palette-primary-40: #6750a4;
+  --md-ref-palette-primary-50: #7f67be;
+  --md-ref-palette-primary-60: #9a82db;
+  --md-ref-palette-primary-70: #b69df8;
+  --md-ref-palette-primary-80: #d0bcff;
+  --md-ref-palette-primary-90: #eaddff;
+  --md-ref-palette-primary-95: #f6edff;
+  --md-ref-palette-primary-99: #fffbfe;
+  --md-ref-palette-primary-100: #ffffff;
 
   /* SECONDARY PALETTE */
   --md-ref-palette-secondary-0: #000000;
-  --md-ref-palette-secondary-10: #1D192B;
-  --md-ref-palette-secondary-20: #332D41;
-  --md-ref-palette-secondary-30: #4A4458;
-  --md-ref-palette-secondary-40: #625B71;
-  --md-ref-palette-secondary-50: #7A7289;
-  --md-ref-palette-secondary-60: #958DA5;
-  --md-ref-palette-secondary-70: #B0A7C0;
-  --md-ref-palette-secondary-80: #CCC2DC;
-  --md-ref-palette-secondary-90: #E8DEF8;
-  --md-ref-palette-secondary-95: #F6EDFF;
-  --md-ref-palette-secondary-99: #FFFBFE;
-  --md-ref-palette-secondary-100: #FFFFFF;
+  --md-ref-palette-secondary-10: #1d192b;
+  --md-ref-palette-secondary-20: #332d41;
+  --md-ref-palette-secondary-30: #4a4458;
+  --md-ref-palette-secondary-40: #625b71;
+  --md-ref-palette-secondary-50: #7a7289;
+  --md-ref-palette-secondary-60: #958da5;
+  --md-ref-palette-secondary-70: #b0a7c0;
+  --md-ref-palette-secondary-80: #ccc2dc;
+  --md-ref-palette-secondary-90: #e8def8;
+  --md-ref-palette-secondary-95: #f6edff;
+  --md-ref-palette-secondary-99: #fffbfe;
+  --md-ref-palette-secondary-100: #ffffff;
 
   /* TERTIARY PALETTE */
   --md-ref-palette-tertiary-0: #000000;
-  --md-ref-palette-tertiary-10: #31111D;
+  --md-ref-palette-tertiary-10: #31111d;
   --md-ref-palette-tertiary-20: #492532;
-  --md-ref-palette-tertiary-30: #633B48;
-  --md-ref-palette-tertiary-40: #7D5260;
+  --md-ref-palette-tertiary-30: #633b48;
+  --md-ref-palette-tertiary-40: #7d5260;
   --md-ref-palette-tertiary-50: #986977;
-  --md-ref-palette-tertiary-60: #B58392;
-  --md-ref-palette-tertiary-70: #D29DAC;
-  --md-ref-palette-tertiary-80: #EFB8C8;
-  --md-ref-palette-tertiary-90: #FFD8E4;
-  --md-ref-palette-tertiary-95: #FFECF1;
-  --md-ref-palette-tertiary-99: #FFFBFA;
-  --md-ref-palette-tertiary-100: #FFFFFF;
+  --md-ref-palette-tertiary-60: #b58392;
+  --md-ref-palette-tertiary-70: #d29dac;
+  --md-ref-palette-tertiary-80: #efb8c8;
+  --md-ref-palette-tertiary-90: #ffd8e4;
+  --md-ref-palette-tertiary-95: #ffecf1;
+  --md-ref-palette-tertiary-99: #fffbfa;
+  --md-ref-palette-tertiary-100: #ffffff;
 
   /* NEUTRAL PALETTE */
   --md-ref-palette-neutral-0: #000000;
-  --md-ref-palette-neutral-10: #1D1B20;
-  --md-ref-palette-neutral-20: #322F35;
-  --md-ref-palette-neutral-30: #48464C;
-  --md-ref-palette-neutral-40: #605D64;
-  --md-ref-palette-neutral-50: #79767D;
-  --md-ref-palette-neutral-60: #938F96;
-  --md-ref-palette-neutral-70: #AEA9B1;
-  --md-ref-palette-neutral-80: #CAC5CD;
-  --md-ref-palette-neutral-90: #E6E0E9;
-  --md-ref-palette-neutral-95: #F5EFF7;
-  --md-ref-palette-neutral-99: #FFFBFE;
-  --md-ref-palette-neutral-100: #FFFFFF;
+  --md-ref-palette-neutral-10: #1d1b20;
+  --md-ref-palette-neutral-20: #322f35;
+  --md-ref-palette-neutral-30: #48464c;
+  --md-ref-palette-neutral-40: #605d64;
+  --md-ref-palette-neutral-50: #79767d;
+  --md-ref-palette-neutral-60: #938f96;
+  --md-ref-palette-neutral-70: #aea9b1;
+  --md-ref-palette-neutral-80: #cac5cd;
+  --md-ref-palette-neutral-90: #e6e0e9;
+  --md-ref-palette-neutral-95: #f5eff7;
+  --md-ref-palette-neutral-99: #fffbfe;
+  --md-ref-palette-neutral-100: #ffffff;
 
   /* NEUTRAL VARIANT PALETTE */
   --md-ref-palette-neutral-variant-0: #000000;
-  --md-ref-palette-neutral-variant-10: #1D1A22;
-  --md-ref-palette-neutral-variant-20: #322F37;
-  --md-ref-palette-neutral-variant-30: #49454F;
-  --md-ref-palette-neutral-variant-40: #605D66;
-  --md-ref-palette-neutral-variant-50: #79747E;
-  --md-ref-palette-neutral-variant-60: #938F99;
-  --md-ref-palette-neutral-variant-70: #AEA9B4;
-  --md-ref-palette-neutral-variant-80: #CAC4D0;
-  --md-ref-palette-neutral-variant-90: #E7E0EC;
-  --md-ref-palette-neutral-variant-95: #F5EEFA;
-  --md-ref-palette-neutral-variant-99: #FFFBFE;
-  --md-ref-palette-neutral-variant-100: #FFFFFF;
+  --md-ref-palette-neutral-variant-10: #1d1a22;
+  --md-ref-palette-neutral-variant-20: #322f37;
+  --md-ref-palette-neutral-variant-30: #49454f;
+  --md-ref-palette-neutral-variant-40: #605d66;
+  --md-ref-palette-neutral-variant-50: #79747e;
+  --md-ref-palette-neutral-variant-60: #938f99;
+  --md-ref-palette-neutral-variant-70: #aea9b4;
+  --md-ref-palette-neutral-variant-80: #cac4d0;
+  --md-ref-palette-neutral-variant-90: #e7e0ec;
+  --md-ref-palette-neutral-variant-95: #f5eefa;
+  --md-ref-palette-neutral-variant-99: #fffbfe;
+  --md-ref-palette-neutral-variant-100: #ffffff;
 
   /* ERROR PALETTE */
   --md-ref-palette-error-0: #000000;
-  --md-ref-palette-error-10: #410E0B;
+  --md-ref-palette-error-10: #410e0b;
   --md-ref-palette-error-20: #601410;
-  --md-ref-palette-error-30: #8C1D18;
-  --md-ref-palette-error-40: #B3261E;
-  --md-ref-palette-error-50: #DC362E;
-  --md-ref-palette-error-60: #E46962;
-  --md-ref-palette-error-70: #EC928E;
-  --md-ref-palette-error-80: #F2B8B5;
-  --md-ref-palette-error-90: #F9DEDC;
-  --md-ref-palette-error-95: #FCEEEE;
-  --md-ref-palette-error-99: #FFFBF9;
-  --md-ref-palette-error-100: #FFFFFF;
+  --md-ref-palette-error-30: #8c1d18;
+  --md-ref-palette-error-40: #b3261e;
+  --md-ref-palette-error-50: #dc362e;
+  --md-ref-palette-error-60: #e46962;
+  --md-ref-palette-error-70: #ec928e;
+  --md-ref-palette-error-80: #f2b8b5;
+  --md-ref-palette-error-90: #f9dedc;
+  --md-ref-palette-error-95: #fceeee;
+  --md-ref-palette-error-99: #fffbf9;
+  --md-ref-palette-error-100: #ffffff;
 
   /* ─────────────────────────────────────────────────────────────────────────────
      SYSTEM COLOR TOKENS - Light Theme
      These are the semantic color roles used in components.
      ───────────────────────────────────────────────────────────────────────────── */
-  
+
   /* PRIMARY - Main brand color for key actions */
-  --md-sys-color-primary: #6750A4;
-  --md-sys-color-on-primary: #FFFFFF;
-  --md-sys-color-primary-container: #EADDFF;
-  --md-sys-color-on-primary-container: #21005D;
-  --md-sys-color-inverse-primary: #D0BCFF;
-  
+  --md-sys-color-primary: #6750a4;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #eaddff;
+  --md-sys-color-on-primary-container: #21005d;
+  --md-sys-color-inverse-primary: #d0bcff;
+
   /* SECONDARY - Supporting color for less prominent elements */
-  --md-sys-color-secondary: #625B71;
-  --md-sys-color-on-secondary: #FFFFFF;
-  --md-sys-color-secondary-container: #E8DEF8;
-  --md-sys-color-on-secondary-container: #1D192B;
-  
+  --md-sys-color-secondary: #625b71;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #e8def8;
+  --md-sys-color-on-secondary-container: #1d192b;
+
   /* TERTIARY - Accent color for contrast and visual interest */
-  --md-sys-color-tertiary: #7D5260;
-  --md-sys-color-on-tertiary: #FFFFFF;
-  --md-sys-color-tertiary-container: #FFD8E4;
-  --md-sys-color-on-tertiary-container: #31111D;
-  
+  --md-sys-color-tertiary: #7d5260;
+  --md-sys-color-on-tertiary: #ffffff;
+  --md-sys-color-tertiary-container: #ffd8e4;
+  --md-sys-color-on-tertiary-container: #31111d;
+
   /* ERROR - Communicates error states */
-  --md-sys-color-error: #B3261E;
-  --md-sys-color-on-error: #FFFFFF;
-  --md-sys-color-error-container: #F9DEDC;
-  --md-sys-color-on-error-container: #410E0B;
-  
+  --md-sys-color-error: #b3261e;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #f9dedc;
+  --md-sys-color-on-error-container: #410e0b;
+
   /* SURFACE HIERARCHY - M3's Container System for layered surfaces */
-  --md-sys-color-surface: #FEF7FF;
-  --md-sys-color-on-surface: #1D1B20;
-  --md-sys-color-surface-variant: #E7E0EC;
-  --md-sys-color-on-surface-variant: #49454F;
-  --md-sys-color-surface-container-lowest: #FFFFFF;
-  --md-sys-color-surface-container-low: #F7F2FA;
-  --md-sys-color-surface-container: #F3EDF7;
-  --md-sys-color-surface-container-high: #ECE6F0;
-  --md-sys-color-surface-container-highest: #E6E0E9;
-  --md-sys-color-surface-dim: #DED8E1;
-  --md-sys-color-surface-bright: #FEF7FF;
-  --md-sys-color-inverse-surface: #322F35;
-  --md-sys-color-inverse-on-surface: #F5EFF7;
-  
+  --md-sys-color-surface: #fef7ff;
+  --md-sys-color-on-surface: #1d1b20;
+  --md-sys-color-surface-variant: #e7e0ec;
+  --md-sys-color-on-surface-variant: #49454f;
+  --md-sys-color-surface-container-lowest: #ffffff;
+  --md-sys-color-surface-container-low: #f7f2fa;
+  --md-sys-color-surface-container: #f3edf7;
+  --md-sys-color-surface-container-high: #ece6f0;
+  --md-sys-color-surface-container-highest: #e6e0e9;
+  --md-sys-color-surface-dim: #ded8e1;
+  --md-sys-color-surface-bright: #fef7ff;
+  --md-sys-color-inverse-surface: #322f35;
+  --md-sys-color-inverse-on-surface: #f5eff7;
+
   /* BACKGROUND */
-  --md-sys-color-background: #FEF7FF;
-  --md-sys-color-on-background: #1D1B20;
-  
+  --md-sys-color-background: #fef7ff;
+  --md-sys-color-on-background: #1d1b20;
+
   /* OUTLINE - Borders and dividers */
-  --md-sys-color-outline: #79747E;
-  --md-sys-color-outline-variant: #CAC4D0;
-  
+  --md-sys-color-outline: #79747e;
+  --md-sys-color-outline-variant: #cac4d0;
+
   /* SHADOW & SCRIM */
   --md-sys-color-shadow: #000000;
   --md-sys-color-scrim: #000000;
-  
+
   /* SURFACE TINT - Used for elevation tinting in dark mode */
-  --md-sys-color-surface-tint: #6750A4;
+  --md-sys-color-surface-tint: #6750a4;
 
   /* ─────────────────────────────────────────────────────────────────────────────
      EXTENDED SEMANTIC COLORS - Success, Warning, Info
      (Not official M3, but commonly needed)
      ───────────────────────────────────────────────────────────────────────────── */
-  --md-sys-color-success: #2E7D32;
-  --md-sys-color-on-success: #FFFFFF;
-  --md-sys-color-success-container: #C8E6C9;
-  --md-sys-color-on-success-container: #1B5E20;
-  
-  --md-sys-color-warning: #ED6C02;
-  --md-sys-color-on-warning: #FFFFFF;
-  --md-sys-color-warning-container: #FFE0B2;
-  --md-sys-color-on-warning-container: #E65100;
-  
-  --md-sys-color-info: #0288D1;
-  --md-sys-color-on-info: #FFFFFF;
-  --md-sys-color-info-container: #B3E5FC;
-  --md-sys-color-on-info-container: #01579B;
+  --md-sys-color-success: #2e7d32;
+  --md-sys-color-on-success: #ffffff;
+  --md-sys-color-success-container: #c8e6c9;
+  --md-sys-color-on-success-container: #1b5e20;
+
+  --md-sys-color-warning: #ed6c02;
+  --md-sys-color-on-warning: #ffffff;
+  --md-sys-color-warning-container: #ffe0b2;
+  --md-sys-color-on-warning-container: #e65100;
+
+  --md-sys-color-info: #0288d1;
+  --md-sys-color-on-info: #ffffff;
+  --md-sys-color-info-container: #b3e5fc;
+  --md-sys-color-on-info-container: #01579b;
 
   /* ─────────────────────────────────────────────────────────────────────────────
      TYPOGRAPHY TOKENS - M3 Type Scale (15 styles)
      ───────────────────────────────────────────────────────────────────────────── */
-  
+
   /* DISPLAY - Largest, for hero text and splash screens */
   --md-sys-typescale-display-large-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-display-large-size: 57px;
   --md-sys-typescale-display-large-line-height: 64px;
   --md-sys-typescale-display-large-weight: 400;
   --md-sys-typescale-display-large-tracking: -0.25px;
-  
+
   --md-sys-typescale-display-medium-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-display-medium-size: 45px;
   --md-sys-typescale-display-medium-line-height: 52px;
   --md-sys-typescale-display-medium-weight: 400;
   --md-sys-typescale-display-medium-tracking: 0px;
-  
+
   --md-sys-typescale-display-small-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-display-small-size: 36px;
   --md-sys-typescale-display-small-line-height: 44px;
   --md-sys-typescale-display-small-weight: 400;
   --md-sys-typescale-display-small-tracking: 0px;
-  
+
   /* HEADLINE - Page and section titles */
   --md-sys-typescale-headline-large-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-headline-large-size: 32px;
   --md-sys-typescale-headline-large-line-height: 40px;
   --md-sys-typescale-headline-large-weight: 400;
   --md-sys-typescale-headline-large-tracking: 0px;
-  
+
   --md-sys-typescale-headline-medium-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-headline-medium-size: 28px;
   --md-sys-typescale-headline-medium-line-height: 36px;
   --md-sys-typescale-headline-medium-weight: 400;
   --md-sys-typescale-headline-medium-tracking: 0px;
-  
+
   --md-sys-typescale-headline-small-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-headline-small-size: 24px;
   --md-sys-typescale-headline-small-line-height: 32px;
   --md-sys-typescale-headline-small-weight: 400;
   --md-sys-typescale-headline-small-tracking: 0px;
-  
+
   /* TITLE - Card titles, list headers, dialog titles */
   --md-sys-typescale-title-large-font: var(--md-ref-typeface-brand);
   --md-sys-typescale-title-large-size: 22px;
   --md-sys-typescale-title-large-line-height: 28px;
   --md-sys-typescale-title-large-weight: 400;
   --md-sys-typescale-title-large-tracking: 0px;
-  
+
   --md-sys-typescale-title-medium-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-title-medium-size: 16px;
   --md-sys-typescale-title-medium-line-height: 24px;
   --md-sys-typescale-title-medium-weight: 500;
   --md-sys-typescale-title-medium-tracking: 0.15px;
-  
+
   --md-sys-typescale-title-small-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-title-small-size: 14px;
   --md-sys-typescale-title-small-line-height: 20px;
   --md-sys-typescale-title-small-weight: 500;
   --md-sys-typescale-title-small-tracking: 0.1px;
-  
+
   /* BODY - Main content text */
   --md-sys-typescale-body-large-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-body-large-size: 16px;
   --md-sys-typescale-body-large-line-height: 24px;
   --md-sys-typescale-body-large-weight: 400;
   --md-sys-typescale-body-large-tracking: 0.5px;
-  
+
   --md-sys-typescale-body-medium-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-body-medium-size: 14px;
   --md-sys-typescale-body-medium-line-height: 20px;
   --md-sys-typescale-body-medium-weight: 400;
   --md-sys-typescale-body-medium-tracking: 0.25px;
-  
+
   --md-sys-typescale-body-small-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-body-small-size: 12px;
   --md-sys-typescale-body-small-line-height: 16px;
   --md-sys-typescale-body-small-weight: 400;
   --md-sys-typescale-body-small-tracking: 0.4px;
-  
+
   /* LABEL - Buttons, badges, chips, navigation */
   --md-sys-typescale-label-large-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-label-large-size: 14px;
   --md-sys-typescale-label-large-line-height: 20px;
   --md-sys-typescale-label-large-weight: 500;
   --md-sys-typescale-label-large-tracking: 0.1px;
-  
+
   --md-sys-typescale-label-medium-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-label-medium-size: 12px;
   --md-sys-typescale-label-medium-line-height: 16px;
   --md-sys-typescale-label-medium-weight: 500;
   --md-sys-typescale-label-medium-tracking: 0.5px;
-  
+
   --md-sys-typescale-label-small-font: var(--md-ref-typeface-plain);
   --md-sys-typescale-label-small-size: 11px;
   --md-sys-typescale-label-small-line-height: 16px;
@@ -321,16 +321,21 @@
      ELEVATION TOKENS - M3 Shadow Scale
      ───────────────────────────────────────────────────────────────────────────── */
   --md-sys-elevation-level0: none;
-  --md-sys-elevation-level1: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-  --md-sys-elevation-level2: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
-  --md-sys-elevation-level3: 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
-  --md-sys-elevation-level4: 0px 2px 3px rgba(0, 0, 0, 0.3), 0px 6px 10px 4px rgba(0, 0, 0, 0.15);
-  --md-sys-elevation-level5: 0px 4px 4px rgba(0, 0, 0, 0.3), 0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level1:
+    0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level2:
+    0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level3:
+    0px 1px 3px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level4:
+    0px 2px 3px rgba(0, 0, 0, 0.3), 0px 6px 10px 4px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level5:
+    0px 4px 4px rgba(0, 0, 0, 0.3), 0px 8px 12px 6px rgba(0, 0, 0, 0.15);
 
   /* ─────────────────────────────────────────────────────────────────────────────
      MOTION TOKENS - M3 Duration & Easing
      ───────────────────────────────────────────────────────────────────────────── */
-  
+
   /* Duration */
   --md-sys-motion-duration-short1: 50ms;
   --md-sys-motion-duration-short2: 100ms;
@@ -348,7 +353,7 @@
   --md-sys-motion-duration-extra-long2: 800ms;
   --md-sys-motion-duration-extra-long3: 900ms;
   --md-sys-motion-duration-extra-long4: 1000ms;
-  
+
   /* Easing */
   --md-sys-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
   --md-sys-motion-easing-standard-decelerate: cubic-bezier(0, 0, 0, 1);
@@ -376,126 +381,126 @@
 .dark,
 [data-theme="dark"] {
   /* PRIMARY */
-  --md-sys-color-primary: #D0BCFF;
-  --md-sys-color-on-primary: #381E72;
-  --md-sys-color-primary-container: #4F378B;
-  --md-sys-color-on-primary-container: #EADDFF;
-  --md-sys-color-inverse-primary: #6750A4;
-  
+  --md-sys-color-primary: #d0bcff;
+  --md-sys-color-on-primary: #381e72;
+  --md-sys-color-primary-container: #4f378b;
+  --md-sys-color-on-primary-container: #eaddff;
+  --md-sys-color-inverse-primary: #6750a4;
+
   /* SECONDARY */
-  --md-sys-color-secondary: #CCC2DC;
-  --md-sys-color-on-secondary: #332D41;
-  --md-sys-color-secondary-container: #4A4458;
-  --md-sys-color-on-secondary-container: #E8DEF8;
-  
+  --md-sys-color-secondary: #ccc2dc;
+  --md-sys-color-on-secondary: #332d41;
+  --md-sys-color-secondary-container: #4a4458;
+  --md-sys-color-on-secondary-container: #e8def8;
+
   /* TERTIARY */
-  --md-sys-color-tertiary: #EFB8C8;
+  --md-sys-color-tertiary: #efb8c8;
   --md-sys-color-on-tertiary: #492532;
-  --md-sys-color-tertiary-container: #633B48;
-  --md-sys-color-on-tertiary-container: #FFD8E4;
-  
+  --md-sys-color-tertiary-container: #633b48;
+  --md-sys-color-on-tertiary-container: #ffd8e4;
+
   /* ERROR */
-  --md-sys-color-error: #F2B8B5;
+  --md-sys-color-error: #f2b8b5;
   --md-sys-color-on-error: #601410;
-  --md-sys-color-error-container: #8C1D18;
-  --md-sys-color-on-error-container: #F9DEDC;
-  
+  --md-sys-color-error-container: #8c1d18;
+  --md-sys-color-on-error-container: #f9dedc;
+
   /* SURFACE HIERARCHY */
   --md-sys-color-surface: #141218;
-  --md-sys-color-on-surface: #E6E0E9;
-  --md-sys-color-surface-variant: #49454F;
-  --md-sys-color-on-surface-variant: #CAC4D0;
-  --md-sys-color-surface-container-lowest: #0F0D13;
-  --md-sys-color-surface-container-low: #1D1B20;
-  --md-sys-color-surface-container: #211F26;
-  --md-sys-color-surface-container-high: #2B2930;
-  --md-sys-color-surface-container-highest: #36343B;
+  --md-sys-color-on-surface: #e6e0e9;
+  --md-sys-color-surface-variant: #49454f;
+  --md-sys-color-on-surface-variant: #cac4d0;
+  --md-sys-color-surface-container-lowest: #0f0d13;
+  --md-sys-color-surface-container-low: #1d1b20;
+  --md-sys-color-surface-container: #211f26;
+  --md-sys-color-surface-container-high: #2b2930;
+  --md-sys-color-surface-container-highest: #36343b;
   --md-sys-color-surface-dim: #141218;
-  --md-sys-color-surface-bright: #3B383E;
-  --md-sys-color-inverse-surface: #E6E0E9;
-  --md-sys-color-inverse-on-surface: #322F35;
-  
+  --md-sys-color-surface-bright: #3b383e;
+  --md-sys-color-inverse-surface: #e6e0e9;
+  --md-sys-color-inverse-on-surface: #322f35;
+
   /* BACKGROUND */
   --md-sys-color-background: #141218;
-  --md-sys-color-on-background: #E6E0E9;
-  
+  --md-sys-color-on-background: #e6e0e9;
+
   /* OUTLINE */
-  --md-sys-color-outline: #938F99;
-  --md-sys-color-outline-variant: #49454F;
-  
+  --md-sys-color-outline: #938f99;
+  --md-sys-color-outline-variant: #49454f;
+
   /* SURFACE TINT */
-  --md-sys-color-surface-tint: #D0BCFF;
+  --md-sys-color-surface-tint: #d0bcff;
 
   /* EXTENDED SEMANTIC - Dark */
-  --md-sys-color-success: #81C784;
-  --md-sys-color-on-success: #1B5E20;
-  --md-sys-color-success-container: #2E7D32;
-  --md-sys-color-on-success-container: #C8E6C9;
-  
-  --md-sys-color-warning: #FFB74D;
-  --md-sys-color-on-warning: #E65100;
-  --md-sys-color-warning-container: #EF6C00;
-  --md-sys-color-on-warning-container: #FFE0B2;
-  
-  --md-sys-color-info: #4FC3F7;
-  --md-sys-color-on-info: #01579B;
-  --md-sys-color-info-container: #0277BD;
-  --md-sys-color-on-info-container: #B3E5FC;
+  --md-sys-color-success: #81c784;
+  --md-sys-color-on-success: #1b5e20;
+  --md-sys-color-success-container: #2e7d32;
+  --md-sys-color-on-success-container: #c8e6c9;
+
+  --md-sys-color-warning: #ffb74d;
+  --md-sys-color-on-warning: #e65100;
+  --md-sys-color-warning-container: #ef6c00;
+  --md-sys-color-on-warning-container: #ffe0b2;
+
+  --md-sys-color-info: #4fc3f7;
+  --md-sys-color-on-info: #01579b;
+  --md-sys-color-info-container: #0277bd;
+  --md-sys-color-on-info-container: #b3e5fc;
 }
 
 /* Auto dark mode based on system preference */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     /* PRIMARY */
-    --md-sys-color-primary: #D0BCFF;
-    --md-sys-color-on-primary: #381E72;
-    --md-sys-color-primary-container: #4F378B;
-    --md-sys-color-on-primary-container: #EADDFF;
-    --md-sys-color-inverse-primary: #6750A4;
-    
+    --md-sys-color-primary: #d0bcff;
+    --md-sys-color-on-primary: #381e72;
+    --md-sys-color-primary-container: #4f378b;
+    --md-sys-color-on-primary-container: #eaddff;
+    --md-sys-color-inverse-primary: #6750a4;
+
     /* SECONDARY */
-    --md-sys-color-secondary: #CCC2DC;
-    --md-sys-color-on-secondary: #332D41;
-    --md-sys-color-secondary-container: #4A4458;
-    --md-sys-color-on-secondary-container: #E8DEF8;
-    
+    --md-sys-color-secondary: #ccc2dc;
+    --md-sys-color-on-secondary: #332d41;
+    --md-sys-color-secondary-container: #4a4458;
+    --md-sys-color-on-secondary-container: #e8def8;
+
     /* TERTIARY */
-    --md-sys-color-tertiary: #EFB8C8;
+    --md-sys-color-tertiary: #efb8c8;
     --md-sys-color-on-tertiary: #492532;
-    --md-sys-color-tertiary-container: #633B48;
-    --md-sys-color-on-tertiary-container: #FFD8E4;
-    
+    --md-sys-color-tertiary-container: #633b48;
+    --md-sys-color-on-tertiary-container: #ffd8e4;
+
     /* ERROR */
-    --md-sys-color-error: #F2B8B5;
+    --md-sys-color-error: #f2b8b5;
     --md-sys-color-on-error: #601410;
-    --md-sys-color-error-container: #8C1D18;
-    --md-sys-color-on-error-container: #F9DEDC;
-    
+    --md-sys-color-error-container: #8c1d18;
+    --md-sys-color-on-error-container: #f9dedc;
+
     /* SURFACE HIERARCHY */
     --md-sys-color-surface: #141218;
-    --md-sys-color-on-surface: #E6E0E9;
-    --md-sys-color-surface-variant: #49454F;
-    --md-sys-color-on-surface-variant: #CAC4D0;
-    --md-sys-color-surface-container-lowest: #0F0D13;
-    --md-sys-color-surface-container-low: #1D1B20;
-    --md-sys-color-surface-container: #211F26;
-    --md-sys-color-surface-container-high: #2B2930;
-    --md-sys-color-surface-container-highest: #36343B;
+    --md-sys-color-on-surface: #e6e0e9;
+    --md-sys-color-surface-variant: #49454f;
+    --md-sys-color-on-surface-variant: #cac4d0;
+    --md-sys-color-surface-container-lowest: #0f0d13;
+    --md-sys-color-surface-container-low: #1d1b20;
+    --md-sys-color-surface-container: #211f26;
+    --md-sys-color-surface-container-high: #2b2930;
+    --md-sys-color-surface-container-highest: #36343b;
     --md-sys-color-surface-dim: #141218;
-    --md-sys-color-surface-bright: #3B383E;
-    --md-sys-color-inverse-surface: #E6E0E9;
-    --md-sys-color-inverse-on-surface: #322F35;
-    
+    --md-sys-color-surface-bright: #3b383e;
+    --md-sys-color-inverse-surface: #e6e0e9;
+    --md-sys-color-inverse-on-surface: #322f35;
+
     /* BACKGROUND */
     --md-sys-color-background: #141218;
-    --md-sys-color-on-background: #E6E0E9;
-    
+    --md-sys-color-on-background: #e6e0e9;
+
     /* OUTLINE */
-    --md-sys-color-outline: #938F99;
-    --md-sys-color-outline-variant: #49454F;
-    
+    --md-sys-color-outline: #938f99;
+    --md-sys-color-outline-variant: #49454f;
+
     /* SURFACE TINT */
-    --md-sys-color-surface-tint: #D0BCFF;
+    --md-sys-color-surface-tint: #d0bcff;
   }
 }
 
@@ -506,7 +511,7 @@
   * {
     border-color: var(--md-sys-color-outline-variant);
   }
-  
+
   body {
     font-family: var(--md-ref-typeface-plain);
     font-size: var(--md-sys-typescale-body-medium-size);
@@ -515,7 +520,7 @@
     color: var(--md-sys-color-on-background);
     background-color: var(--md-sys-color-background);
   }
-  
+
   h1 {
     font-family: var(--md-sys-typescale-display-large-font);
     font-size: var(--md-sys-typescale-display-large-size);
@@ -523,7 +528,7 @@
     font-weight: var(--md-sys-typescale-display-large-weight);
     letter-spacing: var(--md-sys-typescale-display-large-tracking);
   }
-  
+
   h2 {
     font-family: var(--md-sys-typescale-headline-large-font);
     font-size: var(--md-sys-typescale-headline-large-size);
@@ -531,7 +536,7 @@
     font-weight: var(--md-sys-typescale-headline-large-weight);
     letter-spacing: var(--md-sys-typescale-headline-large-tracking);
   }
-  
+
   h3 {
     font-family: var(--md-sys-typescale-headline-medium-font);
     font-size: var(--md-sys-typescale-headline-medium-size);
@@ -539,7 +544,7 @@
     font-weight: var(--md-sys-typescale-headline-medium-weight);
     letter-spacing: var(--md-sys-typescale-headline-medium-tracking);
   }
-  
+
   h4 {
     font-family: var(--md-sys-typescale-headline-small-font);
     font-size: var(--md-sys-typescale-headline-small-size);
@@ -547,34 +552,36 @@
     font-weight: var(--md-sys-typescale-headline-small-weight);
     letter-spacing: var(--md-sys-typescale-headline-small-tracking);
   }
-  
-  h5, h6 {
+
+  h5,
+  h6 {
     font-family: var(--md-sys-typescale-title-large-font);
     font-size: var(--md-sys-typescale-title-large-size);
     line-height: var(--md-sys-typescale-title-large-line-height);
     font-weight: var(--md-sys-typescale-title-large-weight);
     letter-spacing: var(--md-sys-typescale-title-large-tracking);
   }
-  
+
   a {
     color: var(--md-sys-color-primary);
     text-decoration: none;
   }
-  
+
   a:hover {
     text-decoration: underline;
   }
-  
-  code, pre {
-    font-family: 'Roboto Mono', monospace;
+
+  code,
+  pre {
+    font-family: "Roboto Mono", monospace;
     background-color: var(--md-sys-color-surface-container);
     border-radius: var(--md-sys-shape-corner-extra-small);
   }
-  
+
   code {
     padding: 0.125rem 0.25rem;
   }
-  
+
   pre {
     padding: 1rem;
     overflow-x: auto;
@@ -593,7 +600,7 @@
     font-weight: var(--md-sys-typescale-display-large-weight);
     letter-spacing: var(--md-sys-typescale-display-large-tracking);
   }
-  
+
   .text-display-medium {
     font-family: var(--md-sys-typescale-display-medium-font);
     font-size: var(--md-sys-typescale-display-medium-size);
@@ -601,7 +608,7 @@
     font-weight: var(--md-sys-typescale-display-medium-weight);
     letter-spacing: var(--md-sys-typescale-display-medium-tracking);
   }
-  
+
   .text-display-small {
     font-family: var(--md-sys-typescale-display-small-font);
     font-size: var(--md-sys-typescale-display-small-size);
@@ -609,7 +616,7 @@
     font-weight: var(--md-sys-typescale-display-small-weight);
     letter-spacing: var(--md-sys-typescale-display-small-tracking);
   }
-  
+
   /* Headline */
   .text-headline-large {
     font-family: var(--md-sys-typescale-headline-large-font);
@@ -618,7 +625,7 @@
     font-weight: var(--md-sys-typescale-headline-large-weight);
     letter-spacing: var(--md-sys-typescale-headline-large-tracking);
   }
-  
+
   .text-headline-medium {
     font-family: var(--md-sys-typescale-headline-medium-font);
     font-size: var(--md-sys-typescale-headline-medium-size);
@@ -626,7 +633,7 @@
     font-weight: var(--md-sys-typescale-headline-medium-weight);
     letter-spacing: var(--md-sys-typescale-headline-medium-tracking);
   }
-  
+
   .text-headline-small {
     font-family: var(--md-sys-typescale-headline-small-font);
     font-size: var(--md-sys-typescale-headline-small-size);
@@ -634,7 +641,7 @@
     font-weight: var(--md-sys-typescale-headline-small-weight);
     letter-spacing: var(--md-sys-typescale-headline-small-tracking);
   }
-  
+
   /* Title */
   .text-title-large {
     font-family: var(--md-sys-typescale-title-large-font);
@@ -643,7 +650,7 @@
     font-weight: var(--md-sys-typescale-title-large-weight);
     letter-spacing: var(--md-sys-typescale-title-large-tracking);
   }
-  
+
   .text-title-medium {
     font-family: var(--md-sys-typescale-title-medium-font);
     font-size: var(--md-sys-typescale-title-medium-size);
@@ -651,7 +658,7 @@
     font-weight: var(--md-sys-typescale-title-medium-weight);
     letter-spacing: var(--md-sys-typescale-title-medium-tracking);
   }
-  
+
   .text-title-small {
     font-family: var(--md-sys-typescale-title-small-font);
     font-size: var(--md-sys-typescale-title-small-size);
@@ -659,7 +666,7 @@
     font-weight: var(--md-sys-typescale-title-small-weight);
     letter-spacing: var(--md-sys-typescale-title-small-tracking);
   }
-  
+
   /* Body */
   .text-body-large {
     font-family: var(--md-sys-typescale-body-large-font);
@@ -668,7 +675,7 @@
     font-weight: var(--md-sys-typescale-body-large-weight);
     letter-spacing: var(--md-sys-typescale-body-large-tracking);
   }
-  
+
   .text-body-medium {
     font-family: var(--md-sys-typescale-body-medium-font);
     font-size: var(--md-sys-typescale-body-medium-size);
@@ -676,7 +683,7 @@
     font-weight: var(--md-sys-typescale-body-medium-weight);
     letter-spacing: var(--md-sys-typescale-body-medium-tracking);
   }
-  
+
   .text-body-small {
     font-family: var(--md-sys-typescale-body-small-font);
     font-size: var(--md-sys-typescale-body-small-size);
@@ -684,7 +691,7 @@
     font-weight: var(--md-sys-typescale-body-small-weight);
     letter-spacing: var(--md-sys-typescale-body-small-tracking);
   }
-  
+
   /* Label */
   .text-label-large {
     font-family: var(--md-sys-typescale-label-large-font);
@@ -693,7 +700,7 @@
     font-weight: var(--md-sys-typescale-label-large-weight);
     letter-spacing: var(--md-sys-typescale-label-large-tracking);
   }
-  
+
   .text-label-medium {
     font-family: var(--md-sys-typescale-label-medium-font);
     font-size: var(--md-sys-typescale-label-medium-size);
@@ -701,7 +708,7 @@
     font-weight: var(--md-sys-typescale-label-medium-weight);
     letter-spacing: var(--md-sys-typescale-label-medium-tracking);
   }
-  
+
   .text-label-small {
     font-family: var(--md-sys-typescale-label-small-font);
     font-size: var(--md-sys-typescale-label-small-size);

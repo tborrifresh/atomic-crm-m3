@@ -64,7 +64,10 @@ const Header = () => {
   );
 
   const navigationIcon = (
-    <Link to="/" className="flex items-center gap-2 text-on-surface no-underline">
+    <Link
+      to="/"
+      className="flex items-center gap-2 text-on-surface no-underline"
+    >
       <img className="[.light_&]:hidden h-6" src={darkModeLogo} alt={title} />
       <img className="[.dark_&]:hidden h-6" src={lightModeLogo} alt={title} />
     </Link>
@@ -96,10 +99,11 @@ const NavigationTab = ({
 }) => (
   <Link
     to={to}
-    className={`px-4 py-2 text-sm font-medium transition-colors rounded-full ${isActive
+    className={`px-4 py-2 text-sm font-medium transition-colors rounded-full ${
+      isActive
         ? "bg-secondary-container text-on-secondary-container"
         : "text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high"
-      }`}
+    }`}
   >
     {label}
   </Link>

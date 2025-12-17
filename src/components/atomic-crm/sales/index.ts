@@ -1,7 +1,15 @@
+import { lazy } from "react";
 import type { Sale } from "../types";
-import { SalesCreate } from "./SalesCreate";
-import { SalesEdit } from "./SalesEdit";
-import { SalesList } from "./SalesList";
+
+const SalesCreate = lazy(() =>
+  import("./SalesCreate").then((module) => ({ default: module.SalesCreate })),
+);
+const SalesEdit = lazy(() =>
+  import("./SalesEdit").then((module) => ({ default: module.SalesEdit })),
+);
+const SalesList = lazy(() =>
+  import("./SalesList").then((module) => ({ default: module.SalesList })),
+);
 
 export default {
   list: SalesList,

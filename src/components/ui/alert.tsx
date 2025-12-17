@@ -28,7 +28,11 @@ function Alert({
     <div
       data-slot="alert"
       role="alert"
-      className={cn(alertVariants({ variant }), "bg-surface-container rounded-md", className)}
+      className={cn(
+        alertVariants({ variant }),
+        "bg-surface-container rounded-md",
+        className
+      )}
       {...props}
     />
   )
